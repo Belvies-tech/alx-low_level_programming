@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Emtry point
+ * main - Entry point
  * Description: 'print numbers of base 10'
  * Return: Always 0
  */
 int main(void)
 {
-int n
+int n;
 
 for (n = 0; n <= 9; n++)
 {
