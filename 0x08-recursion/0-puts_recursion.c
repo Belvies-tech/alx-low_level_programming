@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * _put_recursion - Print a string followed by a new line
@@ -15,6 +15,6 @@ void _puts_recursion(char *s)
 	}
 
 	_putchar(*s);
-	s++
+	s++;
 	_put_recursion(s);
 }
