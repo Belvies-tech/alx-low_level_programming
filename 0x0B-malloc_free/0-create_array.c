@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates an arra chars
+ * create_array - creates an array  chars
  * @size: The size of the array
  * @c: The char to fill in the array
  *
@@ -16,7 +16,8 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-	str = malloc(size * sizeof(char))
+	s = malloc(size * sizeof(char));
+	
 	if (s == NULL)
 	return (NULL);
 
