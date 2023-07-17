@@ -9,9 +9,9 @@
  * @argv: argument vector
  *
  * Return: Always zero
- */ 
+ */
 int main(int argc, char *argv[])
-{       
+{
 int i;
 unsigned int k, sum = 0;
 char *e;
@@ -43,4 +43,4 @@ printf("0\n");
 }
 
 return (0);
-} 
+}
