@@ -4,11 +4,11 @@
 #include "lists.h"
 
 /**
- * add_node_end - add a new node at the end
- * of a list_t list
- * @head: head of the linked list
- * @str: string to store in the list
- * Return: Address of the head.
+ * add_node_end - adds new node at the end
+ * of a list_t list.
+ * @head: head of the linked list.
+ * @str: string to store in the list.
+ * Return: address of the head.
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -22,7 +22,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	new_node->str = strdup(str);
 
 	for (n = 1; str[n]; n++)
-		;
 
 	new_node->len = n;
 	new_node->next = NULL;
